@@ -1,0 +1,26 @@
+{
+  "name": "@rcsf/tsconfig",
+  "version": "1.0.0",
+  "private": "false",
+  "description": "Shared TypeScript config for Rigby Capital Solution Factory projects",
+  "license": "ISC",
+  "author": {
+    "name": "Guillaume Contesso",
+    "email": "gcontesso@rigbycapital.fr",
+    "url": "https://www.rigbycapital.com"
+  },
+  "main": "tsconfig.json",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "tsconfig.json"
+  ],
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "ts",
+    "config",
+    "configuration"
+  ]
+}
