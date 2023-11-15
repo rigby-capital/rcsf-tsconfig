@@ -1,6 +1,6 @@
 {
   "name": "@rcsf/tsconfig",
-  "version": "0.0.0",
+  "version": "2.0.1",
   "private": "false",
   "description": "Shared TypeScript config for Rigby Capital Solution Factory projects",
   "license": "ISC",
