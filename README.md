@@ -8,7 +8,7 @@
 npm install --save-dev @rcsf/tsconfig
 ```
 
-*This config requires TypeScript 5 or later.*
+*This config targets Node.js 22 and requires TypeScript 6 or later.*
 
 ## Usage
 
@@ -16,25 +16,13 @@ npm install --save-dev @rcsf/tsconfig
 
 ```json
 {
-	"extends": "@rcsf/tsconfig",
-	"compilerOptions": {
-		"outDir": "dist"
-	}
-}
-```
-
-When you are targeting a higher version of Node.js, check the relevant ECMAScript version and add it as `target`:
-
-```json
-{
-	"extends": "@rcsf/tsconfig",
-	"compilerOptions": {
-		"outDir": "dist",
-		"target": "ES2023"
-	}
+ "extends": "@rcsf/tsconfig",
+ "compilerOptions": {
+  "outDir": "dist"
+ }
 }
 ```
 
 ## Original work
 
-This module is a shameless rip-off from [Sindre Horsus](https://github.com/sindresorhus/tsconfig) awesome work.
+This module is a shameless rip-off from [Sindre Sorhus](https://github.com/sindresorhus/tsconfig) awesome work.
