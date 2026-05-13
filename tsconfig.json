@@ -1,27 +1,25 @@
 {
-  "compilerOptions": {
-    "strict": true,
-    "exactOptionalPropertyTypes": true,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitOverride": true,
-    "noImplicitReturns": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "noUncheckedIndexedAccess": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "module": "nodenext",
-    "moduleResolution": "nodenext",
-    "resolveJsonModule": true,
-    "declaration": true,
-    "newLine": "lf",
-    "noEmitOnError": true,
-    "stripInternal": true,
-    "forceConsistentCasingInFileNames": true,
-    "lib": [
-      "ES2024"
-    ],
-    "target": "ES2024",
-    "pretty": true,
-    "skipLibCheck": true
-  }
+	"compilerOptions": {
+		"strict": true,
+		"exactOptionalPropertyTypes": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noUncheckedIndexedAccess": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"module": "nodenext",
+		"moduleResolution": "nodenext",
+		"resolveJsonModule": true,
+		"declaration": true,
+		"newLine": "lf",
+		"noEmitOnError": true,
+		"stripInternal": true,
+		"forceConsistentCasingInFileNames": true,
+		"lib": ["ES2024"],
+		"target": "ES2024",
+		"pretty": true,
+		"skipLibCheck": true
+	}
 }
